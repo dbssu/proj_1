@@ -6,7 +6,14 @@
 주변 가정폭력 상담소를 검색할 수 있고, 실시간 채팅으로 편하게 상담할 수 있습니다.<br/>
 또한, 익명 게시판을 이용하여 사전 예방 및 공유를 할 수 있습니다.<br/>
 
-## 기능 소개
+## 사용한 기술 스택
+<div align="left">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white" />
+</div>
+
+## 🚀 기능 소개
+프로젝트의 메인과 서브 기능을 소개합니다.
 - **메인 기능**
   - 실시간 상담 채팅 기능
   - 익명 커뮤니티 기능
@@ -16,3 +23,10 @@
   - 회원가입
   - 로그인/아웃
   - 캠페인 소개 페이지
+ 
+## 🎯 트러블 슈팅
+프로젝트를 진행하면서 생긴 문제에 대한 해결과 해결 과정을 소개합니다.
+
+- 문제: find 메소드의 에러 처리
+- 해결 과정: updateOne 메소드는 MongoDB의 updateOne 메소드를 호출하며, 에러 처리를 위해 콜백 함수를 사용하는 대신, Promise를 반환합니다. 따라서 에러 처리를 위해 try-catch 구문을 사용할 수 있습니다. 이 경우, updateById 메소드에서 발생하는 에러를 캐치하여 처리할 수 있습니다.
+- 해결: 위 에러에 적힌 내용을 토대로 try-catch 구문을 사용하여 해결
